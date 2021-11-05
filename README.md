@@ -50,3 +50,12 @@ NOTE: after running open parity (at [`http://127.0.0.1:8180/`](http://127.0.0.1:
 ```bash
 npm run dev
 ```
+
+## Architecture
+
+Planned future additions:
+
+- [ ] create page showing example use of `web3.eth.getStorageAt` method on [`StorageExample`](/contracts/StorageExample.sol) smart-contract
+- [ ] make MetaCoin into a ERC20 standards-compliant token
+- [ ] add example oracle smart-contract example that interacts with external data
+- [ ] consider implementing [`truffle-contract`](https://github.com/trufflesuite/truffle-contract) for better Ethereum contract abstraction
